@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Rubik+Pixels&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dc0ff546ac.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li> <a href="#header"> Home </a> </li>
+                    <li> <a href="#about"> About </a> </li>
+                    <li> <a href="#services"> Services </a> </li>
+                    <li> <a href="#Portfolio"> Portfolio </a> </li>
+                    <li> <a href="#contact"> Contact </a> </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, I am <span>Mihir</span><br> Kalavatia </h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------about-------------------- -->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/picture.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Mihir, a fresher developer with a 
+                       passion for creating innovative solutions.
+                       I have recently completed my education in
+                       Computer Science and am excited to begin my
+                       career as developer. I am proficient in
+                       HTML5, CSS, JS. I am eager to learn and grow
+                       as a developer and am always looking for
+                       new challenges to expand my skills</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>                        
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>                        
+                        <p class="tab-links" onclick="opentab('education')">Education</p>                        
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web interface</li>
+                            <li><span>Devops</span><br>Jenkins and kubernetes</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>05/2022 - 07/2022</span><br>Intern at AAA Tech Services</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Bachelors in Computer Science from JIIT</li>
+                            <li><span>2019</span><br>Senior School from Sikar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------Services--------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Bringing your digital ideas to life with seamless functionality and engaging design.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-docker"></i>
+                    <h2>Devops</h2>
+                    <p>Streamlining your software development process for faster, more efficient deployment</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------portfolio--------------------------- -->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project-111.jpg" alt="">
+                <div class="layer">
+                    <h3>Sorting Visualizer</h3>
+                    <p>Visual representation of sorting algorithms like 
+                       bubble sort, quick sort, merge sort, selection sort,
+                       insertion sort, counting sort and radix sort using
+                       Tkinter Python GUI</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project-2.png" alt="">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>This website showcases my skills and have a note of my
+                        previous work, knowledge and skills</p>
+                    <a href="https://github.com/MihirKalvatia/Portfolio-website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/project-111.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Compiler</h3>
+                    <p>Visual representation of sorting algorithms like 
+                       bubble sort, quick sort, merge sort, selection sort,
+                       insertion sort, counting sort and radix sort using
+                       Tkinter Python GUI</p>
+                    <a href="https://github.com/MihirKalvatia/online-compiler"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------------------------contact------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>kalavatia.mihir4@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+91 9782089905</p>
+                <div class="social-items">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/11zLC8Y8eIIJh6GEZzhTOGZYx-zd8GJUg/view?usp=share_link" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © kalavatia. Made with <i class="fa-solid fa-heart"></i> by Mihir Kalavatia</p>
+    </div>
+</div>
+
+<!-- -----------------------------JS SCRIPT-------------------------------------- -->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){          
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>      
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwWcxTEKVH7U_EgmP73LO_r2cvV8SHPnK5K7P2fcD10I8bE5iHx7s3F3hC8u2EJX7Y/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
